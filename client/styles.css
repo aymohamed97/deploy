@@ -10,7 +10,8 @@ body{
 
 }
 h1,h2,h3{
- font-family: 'M PLUS 1', sans-serif;;
+ font-family: 'M PLUS 1', sans-serif;
+
 }
 
 header{
@@ -23,6 +24,12 @@ header{
     top: 0;
     left: 0%;
     width: 100%;
+    transition: all 0.5s;
+}
+.shrink-header{
+    height: 40px;
+    color: white;
+    font-size: 0.7rem;
 }
 
 section{
